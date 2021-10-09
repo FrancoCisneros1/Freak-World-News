@@ -1,5 +1,5 @@
 body {
-    background-color: gold;
+    background-color: rgb(190, 190, 190);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -40,7 +40,11 @@ li {
 }
 h1 {
     font-size: 175%;
-    
+}
+h2 {
+    background-color: red;
+    font-size: 20px;
+    text-align: center;
 }
 nav {
     display: flex;
@@ -52,30 +56,35 @@ nav {
     padding: 5px;
     border: 3px black solid;
     display: flex;
-    flex-direction: nowrap;
+    flex-direction: column;
 }
 .main {
-    flex: 4;
+    width: 100%;
     order: 1;
     font-size: 1rem;
 }
 .conteiner2 {
-    flex: 2;
+    width: 100%;
     order: 0;
     flex-direction: column;
     margin: 5px;
 }
 .secundary {
     margin-top: 15px;
+    margin-bottom: 10px;
     background-color: teal;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 img {
     float: right;
     margin: 2px;
+
 }
 .popular {
     order: 2;
-    flex: 1;
+    width: 100%;
     background-color: thistle;
     margin: 10px;
 }
@@ -87,32 +96,47 @@ img {
     display: flex;
     justify-content: flex-end;
 }
-@media only screen and (max-width: 900px) {
-
-    .notices {
-        background-color: pink;
-        flex-direction: column;
-    }
-
-    .title {
-        color: black;
-        font-size: 30px;
-    }
-
+.menu{
+    display: flex;
+    
 }
-
-/* Computer screen code */
-
-@media only screen and (min-width: 0px) {
+ul {
+    display: none;
+}
+@media only screen and (min-width: 600px) {
 
     .notices {
-        background-color: white;
-        flex-direction: nowrap;
+        background-color: rgb(85, 66, 69);
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
+    ul {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+    .main {
+        width: 60%;
+    }
+    .conteiner2 {
+        width: 30%;
+    }
+    .popular {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 950px) {
 
-    .title {
-        color: green;
-        font-size: 45px;
+    .main {
+        width: 50%;
+    }
+    .conteiner2 {
+        width: 20%;
+    }
+    .popular {
+        width: 20%;
     }
 
 }
