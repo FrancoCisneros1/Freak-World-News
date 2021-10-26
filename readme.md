@@ -1,6 +1,6 @@
-# Radium Rocket Become a Web Developer Course asignments week 3
+# Radium Rocket Become a Web Developer Course asignments week 05
 
-Design a newspaper portal using CSS and HTML. Use jqueries and flexbox properties to make a responsive design. Use diferent CSS files and integer them in the HTML file.
+Design a newspaper portal with a susbscribe form, using CSS, HTML and DOM
 
 ## Link to Github pages to visualize the demo:
 

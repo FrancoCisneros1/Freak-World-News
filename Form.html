@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Registration form</title>
+    </head>
+    <body>
+        <main class="mainInscription" id="mainInscription">
+                <div class="group_form">
+                    <label for="full_name" class="full_name">Full name:</label>
+                    <input type="text" id="user_group" placeholder="Full name">
+                    <p class="p-form" id="name_error">
+                        It must have more than 6 letters and at least one space in between.
+                    </p>
+                </div>
+                <div class="group_form" id="email_group">
+                    <label for="email" class="">Email:</label>
+                    <input type="text" id="email" placeholder="Email">
+                    <p class="p-form" id="email_error">
+                        Wrong email format.
+                    </p>
+                </div>
+                <div class="group_form" id="password_group">
+                    <label for="password" class="">Password:</label>
+                    <input type="text" id="password" placeholder="Password">
+                    <p class="p-form" id="password_error">
+                        It must have more than 8 letters and numbers.
+                    </p>
+                </div>
+                <div class="group_form" id="password_group">
+                    <label for="repeat_password" class="">Repeat Password:</label>
+                    <input type="text" id="repeat_password" name="repeat_password" placeholder="Repeat Password">
+                    <p class="p-form" id="password2_error">
+                        Password does not match.
+                    </p>
+                </div>
+                <div class="group_form" id="age_group">
+                    <label for="age" class="">Age:</label>
+                    <input type="text" id="age" placeholder="Age">
+                    <p class="p-form" id="age_error">
+                        Whole number greater than or equal to 18.
+                    </p>
+                </div>
+                <div class="group_form" id="phone_group">
+                    <label for="phone" class="">Phone:</label>
+                    <input type="text" id="phone" placeholder="Phone">
+                    <p class="p-form" id="phone_error">
+                        Number of at least 7 digits, do not accept spaces, hyphens or parentheses.
+                    </p>
+                </div>
+                <div class="group_form" id="adress_group">
+                    <label for="adress" class="">Adress:</label>
+                    <input type="text" id="adress" name="adress" placeholder="Adress">
+                    <p class="p-form" id="adress_error">
+                        At least 5 characters, with letters, numbers and a space in between.
+                    </p>
+                </div>             
+                <div class="group_form" id="city_group">
+                    <label for="city" class="">City:</label>
+                    <input type="text" id="city" name="city" placeholder="City">
+                    <p class="p-form" id="city_error">
+                        It must have a minimum of 3 characters.
+                    </p>
+                </div>
+                    <div class="group_form" id="postacode_group">
+                    <label for="postal_code" class="">Postal code:</label>
+                    <input type="text" id="postalCode" name="postalCode" placeholder="Postal code">
+                    <p class="p-form" id="postalCode_error">
+                        It must have a minimum of 3 characters.
+                    </p>
+                </div>
+                <div class="group_form" id="dni_group">
+                    <label for="DNI" class="">DNI:</label>
+                    <input type="text" class="" id="dni" placeholder="DNI">
+                    <p class="p-form" id="dni_error">
+                        It must have more than 7 ur 8 numbers.
+                    </p>
+                </div>
+                <div class="formulary_end">
+                    <div>
+                        <p class="p-form" id="formulary_error">Error: The data was not filled in correctly</p>
+                    </div>
+                    <div class="group_formulary">
+                        <button type="submit" id="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+            <script src="./Js/app.js"></script>
+        </main>
+    </body>
+</html>
