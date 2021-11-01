@@ -221,3 +221,32 @@ input {
         height: 100%;
     }
 }
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    display: none;
+    place-items: center;
+
+}
+.modalConteiner {
+    width: 40%;
+    height: 90%;
+    margin: auto;
+    background-color: blanchedalmond;
+    display: grid;
+    padding: 15px;
+    place-items: center;
+}
+.modalClose {
+    border: 2.5px solid black;
+    padding: 3px;
+}
+.modalData {
+    margin: 0%;
+}

@@ -52,10 +52,10 @@
                         Number of at least 7 digits, do not accept spaces, hyphens or parentheses.
                     </p>
                 </div>
-                <div class="group_form" id="adress_group">
-                    <label for="adress" class="">Adress:</label>
-                    <input type="text" id="adress" name="adress" placeholder="Adress">
-                    <p class="p-form" id="adress_error">
+                <div class="group_form" id="address_group">
+                    <label for="address" class="">address:</label>
+                    <input type="text" id="address" name="address" placeholder="Address">
+                    <p class="p-form" id="address_error">
                         At least 5 characters, with letters, numbers and a space in between.
                     </p>
                 </div>             
@@ -89,6 +89,13 @@
                     </div>
                 </div>
             </form>
+            <div class ="modal "id="modal">
+                <div id="modalSuccessConteiner" class="modalConteiner">
+                    <h4 id="titleModal"></h4>
+                    <ul id="modalData"></ul>
+                    <button class="modalClose" id="modal_close"> Close</button>
+                </div>
+            </div>
             <script src="./Js/app.js"></script>
         </main>
     </body>
