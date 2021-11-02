@@ -1,4 +1,4 @@
-# Radium Rocket Become a Web Developer Course asignments week 05
+# Radium Rocket Become a Web Developer Course asignments week 06
 
 Design a newspaper portal with a susbscribe form, using CSS, HTML and DOM
 
